@@ -1,0 +1,82 @@
+Log global de mudanças no sistema
+---------------------------------
+
+Sistema: Sistema Operacional PX-DOS® 0.9.0
+Natureza do Log: Desenvolvimento de Aplicativos
+Copyright: Copyright © 2013-2016 Felipe Miguel Nery Lunkes.
+           Todos os direitos reservados.
+
+Legenda:
+
+- Nomes em Maiúsculo = Nomes de arquivo
+- "-" = Tópico
+- "SUB" = Subtópico
+
+Informações complementares:
+
+- Apenas aplicativos desenvolvidos em Assembly foram/serão alterados e listados neste Log.
+- Mudanças realizadas para criar uma nova interface gráfica livre de código de terceiros,
+completamente autoral e de natureza proprietária, evitando qualquer uso indevido do código
+aqui presente.
+- Observar ordem de acontecimentos segundo a listagem; Acontecimentos em ordem cronológica.
+- As mudanças de nome de arquivo serão aplicadas assim que possível.
+
+_________________________________________________________________________________________________
+
+[20/12/2015]: Fase de planejamento
+
+- Início do planejamento de reestruturação de aplicativos.
+
+[20/12/2015 - 20/01/2016]: Fase de desenvolvimento de código
+
+- Lançamento da versão estável da nova biblioteca proprietária de UI.
+- A nova API criada se mostrou estável.
+- O uso da mesma nos aplicativos se mostrou viável.
+- BINMOUSE portado para a nova API.
+- PIN portado para a nova API.
+- CPU portado para a nova API.
+
+[13/02/2016]: Início das reestruturações efetivas
+
+- BINMOUSE renomeado para MOUSE.
+- Removido aplicativo PXDIAG (funções integradas ao PAINEL DE CONTROLE).
+- PCINFO renomeado para PXDIAG.
+- Removido aplicativo CPUID (funções integradas ao PAINEL DE CONTROLE).
+- Removido aplicativo PROCVER (funções integradas ao PAINEL DE CONTROLE).
+- Nome de fonte PXDESLIGAR.ASM alterado para DESLIGAR.ASM.
+- Início da adequação do restante dos aplicativos para a nova API.
+  SUB: VER, AJUDA, GUIA, CPU, DESLIGAR, INT90h, MEM, PXDIAG, REG, SOBRE, SOM, EDITOR
+- Aplicativo APPX não sofrerá alterações significativas. Apenas para compatibilidade.
+  SUB: linha de comando, sem interface; reconhecimento APPX.
+- SOM portado para a nova API.
+- SOM renomeado para AUDIO.
+- DESLIGAR portado para a nova API.
+
+[20/03/2016]: Progresso da reestruturação
+
+- Bilioteca 'versao.s' adicionada ao SDK, permitindo ao programa exibir a versão do PX-DOS®.
+- Removido aplicativo SOBRE (funções integradas ao PAINEL DE CONTROLE).
+- Mudanças estruturais no aplicativo PAINEL DE CONTROLE.
+  SUB: página de informações técnicas, exibição da real versão do sistema.
+
+[13/06/2016]: Adequação a novas APIs e remoção de Apps desnecessários no momento
+
+- Removido aplicativo AJUDA (funções de API antiga, deve ser escrito do zero).
+- Removido aplicativo GUIA (funções de API antiga, deve ser escrito do zero).
+- Removida API antida de interface do aplicativo EDITOR (deve ser adaptado a API PX).
+
+[24/06/2016]: Alterações no código fonte de aplicativos
+
+- Alterações estruturais no aplicativo CPU.
+
+[26/06/2016]: Adição do App Ajuda e Introdução (AJUDA.EPX) e alteração em Apps
+
+- Adição do aplicativo AJUDA, ainda em desenvolvimento.
+- Alteração e adequação dos apps TETRIS, VELHA, MATRIX e PXFON (fontes em Pascal).
+- Alteração de adequação da opção [ESC] na interface Diag do PAINEL DE CONTROLE.
+- Corrigido erro que mostrava o título de mouse no teste de vídeo no PAINEL DE CONTROLE.
+
+[02/07/2016]: Adição de aplicativo PXDSK
+
+- Adição do aplicativo de análise de disco PXDSK.
+- Alterações efetuadas no script de compilação de apps em linguagem C.

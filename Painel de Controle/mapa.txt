@@ -1,0 +1,529 @@
+
+- NASM Map file ---------------------------------------------------------------
+
+Source file:  painel.asm
+Output file:  ../../painel.epx
+
+-- Program origin -------------------------------------------------------------
+
+00000100
+
+-- Sections (summary) ---------------------------------------------------------
+
+Vstart            Start             Stop              Length    Class     Name
+             100               100              189E  0000179E  progbits  .text
+            18A0              18A0              2E96  000015F6  progbits  .data
+
+-- Sections (detailed) --------------------------------------------------------
+
+---- Section .text ------------------------------------------------------------
+
+class:     progbits
+length:                179E
+start:                  100
+align:     not defined
+follows:   not defined
+vstart:                 100
+valign:    not defined
+vfollows:  not defined
+
+---- Section .data ------------------------------------------------------------
+
+class:     progbits
+length:                15F6
+start:                 18A0
+align:                    8
+follows:   not defined
+vstart:                18A0
+valign:    not defined
+vfollows:  not defined
+
+-- Symbols --------------------------------------------------------------------
+
+---- No Section ---------------------------------------------------------------
+
+Value     Name
+0000002F  branco_verde
+00000007  branco_preto
+000000A4  vermelho_verde
+000000CF  branco_vermelho
+000000F0  preto_branco
+00000060  branco_marrom
+0000B800  MEMORIA_VIDEO
+00000019  ALTURA
+00000050  LARGURA
+0000001B  DEL
+00004200  F8
+00000003  CTRLC
+00000020  Espaco
+0000001B  ESCAPE
+00000021  SHIFT1
+00000022  SHIFT2
+00000023  SHIFT3
+00000024  SHIFT4
+00000025  SHIFT5
+00000026  SHIFT6
+00000027  SHIFT7
+00000028  SHIFT8
+00000029  SHIFT9
+0000002A  SHIFT0
+0000002B  Mais
+0000002D  Menos
+0000003D  Igual
+00000041  AMai
+00000061  AMin
+00000042  BMai
+00000062  BMin
+00000043  CMai
+00000063  CMin
+00000044  DMai
+00000064  DMin
+00000045  EMai
+00000065  EMin
+00000046  FMai
+00000066  FMin
+00000047  GMai
+00000067  GMin
+00000048  HMai
+00000068  HMin
+00000049  IMai
+00000069  IMin
+0000004A  JMai
+0000006A  JMin
+0000004B  KMai
+0000006B  KMin
+0000004C  LMai
+0000006C  LMin
+0000004D  MMai
+0000006D  MMin
+0000004E  NMai
+0000006E  NMin
+0000004F  OMai
+0000006F  Omin
+00000050  PMai
+00000070  PMin
+00000051  QMai
+00000071  QMin
+00000052  RMai
+00000072  RMin
+00000053  SMai
+00000073  SMin
+00000054  TMai
+00000074  TMin
+00000055  UMai
+00000075  UMin
+00000056  VMai
+00000076  VMin
+00000057  WMai
+00000077  WMin
+00000058  XMai
+00000078  XMin
+00000059  YMai
+00000079  YMin
+0000005A  ZMai
+0000007A  ZMin
+0000007F  Del
+00000008  Backspace
+0000003F  Interrogacao
+00007530  tabela_inicial
+00008000  tabela_final
+00000000  VERSAO
+00000009  SUBVERSAO
+000007E0  REVISAO
+00000090  PINT
+00000021  DINT
+0000001C  POS_TITULO_INICIAL
+00000046  POS_RODAPE_INICIAL
+00000016  POS_TITULO_INFO
+00000046  POS_RODAPE_INFO
+0000000F  POS_TITULO_AUTORAIS
+0000001C  POS_RODAPE_AUTORAIS
+0000000C  POS_TITULO_SISTEMA
+00000046  POS_RODAPE_SISTEMA
+0000000A  POS_TITULO_HARDWARE
+00000046  POS_RODAPE_HARDWARE
+0000000A  POS_TITULO_SOBRE
+00000046  POS_RODAPE_SOBRE
+00000019  POS_TITULO_MEMORIA
+00000003  POS_RODAPE_MEMORIA
+0000000C  POS_TITULO_APPX
+00000046  POS_RODAPE_APPX
+0000000D  POS_TITULO_DIAG
+00000046  POS_RODAPE_DIAG
+00000016  POS_TITULO_MOUSE
+00000046  POS_RODAPE_MOUSE
+00000016  POS_TITULO_VIDEO
+00000046  POS_RODAPE_VIDEO
+00000016  POS_TITULO_AUDIO
+00000046  POS_RODAPE_AUDIO
+00323532  BUILD_INFO
+
+
+---- Section .text ------------------------------------------------------------
+
+Real              Virtual           Name
+             100               100  cabecalho_appx
+             100               100  cabecalho_appx.assinatura
+             104               104  cabecalho_appx.arquitetura
+             105               105  cabecalho_appx.sis_versao
+             107               107  cabecalho_appx.sis_subversao
+             108               108  cabecalho_appx.valor_ss
+             10A               10A  cabecalho_appx.valor_sp
+             10C               10C  cabecalho_appx.valor_ip
+             10E               10E  cabecalho_appx.programa
+             110               110  cabecalho_appx.offset
+             112               112  cabecalho_appx.paginas
+             114               114  cabecalho_appx.alocacao_minima
+             116               116  cabecalho_appx.alocacao_maxima
+             143               143  escrever
+             14F               14F  pronto
+             150               150  clrscr
+             16F               16F  gotoxy
+             17C               17C  pintartela
+             1B0               1B0  chamar_azul_branco
+             1B4               1B4  chamar_branco_laranja
+             1B8               1B8  chamar_cinza_verde
+             1BC               1BC  chamar_ciano_roxo
+             1C0               1C0  chamar_vermelho_azul
+             1C4               1C4  chamar_vermelho_ciano
+             1C8               1C8  chamar_vermelhoesc_branco
+             1CC               1CC  branco_laranja
+             1FE               1FE  azul_branco
+             230               230  cinza_verde
+             262               262  ciano_roxo
+             294               294  vermelho_azul
+             2C6               2C6  vermelho_ciano
+             2F8               2F8  vermelhoesc_branco
+             32A               32A  ativar_interface
+             339               339  criar_interface
+             341               341  titulo_rodape
+             359               359  rolagem
+             36E               36E  desenhar
+             37B               37B  desenhar_nao_decrementa_linha
+             381               381  desenhar_nao_decrementa_coluna
+             3A7               3A7  adaptar_interface
+             3F8               3F8  adaptar_pagina
+             400               400  atualizar_interface
+             413               413  matar_interface
+             420               420  criar_caixa_mensagem
+             428               428  criar_caixa_mensagem.titulo_rodape
+             440               440  criar_caixa_mensagem.rolagem
+             455               455  criar_dialogo
+             462               462  criar_caixa_opcoes
+             46A               46A  criar_caixa_opcoes.linha_horizontal_sim
+             482               482  criar_caixa_opcoes.linha_vertical_sim
+             49A               49A  criar_caixa_opcoes.linha_horizontal_nao
+             4B2               4B2  criar_caixa_opcoes.linha_vertical_nao
+             4C7               4C7  criar_sim_nao
+             4ED               4ED  mostrar_cursor
+             4F6               4F6  esconder_cursor
+             50B               50B  limpar_linha
+             510               510  limpar_linha.limpar
+             51C               51C  marcar_linha
+             521               521  marcar_linha.marcar
+             52D               52D  colorir_linha
+             532               532  colorir_linha.marcar
+             53E               53E  ler
+             540               540  ler.loop
+             55B               55B  ler.apagar
+             577               577  ler.pronto
+             585               585  aguardar_tecla
+             58B               58B  identificar_tecla
+             596               596  para_Maiusculo
+             59A               59A  para_Maiusculo_loop
+             5B2               5B2  para_Maiusculo_pronto
+             5B4               5B4  emitirsom
+             5CB               5CB  desligarsom
+             5D4               5D4  delay
+             5F5               5F5  delay.checarLoop
+             602               602  delay.tempo_para
+             604               604  delay.na_hora
+             618               618  delay.delay_original
+             61A               61A  delay.var_contar
+             61C               61C  delay.contagem_anterior
+             61E               61E  pxdosbug
+             624               624  limpar_memoria
+             62B               62B  limpar_memoria.loop
+             63E               63E  limpar_memoria.pronto
+             63F               63F  marcar_memoria
+             646               646  marcar_memoria.loop
+             659               659  marcar_memoria.pronto
+             65A               65A  uso_aplicativo
+             66F               66F  ativar_A20
+             6A1               6A1  ativar_A20.aguardarA20
+             6A8               6A8  ativar_A20.aguardarA202
+             6AF               6AF  parahexa
+             6C5               6C5  guardar
+             6DC               6DC  hex
+             6E5               6E5  hexc
+             6F5               6F5  testt
+             6FC               6FC  BIOS
+             702               702  pxdoshlt
+             710               710  printf
+             714               714  printk
+             71C               71C  scanf
+             720               720  binparadecimal
+             739               739  binparadecimal.tmp
+             73B               73B  pausar
+             75C               75C  pausar.checarloop
+             769               769  pausar.passou
+             76B               76B  pausar.sincronizado
+             77F               77F  pausar.delayoriginal
+             781               781  pausar.var_contar
+             783               783  pausar.anterior
+             785               785  paraString
+             78F               78F  paraString.empurrar
+             79A               79A  paraString.puxar
+             7AC               7AC  paraString.tmp
+             7B3               7B3  verificar_sistema
+             7C1               7C1  Continua
+             7CC               7CC  correto
+             7CD               7CD  FIMVDI
+             7DA               7DA  SDK_fim
+             7E8               7E8  kbs
+             7F2               7F2  mbs
+             7FF               7FF  finalizar
+             81A               81A  finalizar.fechar
+             83C               83C  fim
+             849               849  SAIR_MSG
+             860               860  Prog
+             880               880  detectar_sistema_atual
+             895               895  subver
+             8B0               8B0  revisao
+             8BF               8BF  obterProcessador
+             913               913  loop_CPU
+             91A               91A  formatarNomeCPU
+             920               920  NomeProcessador
+             936               936  produto
+             968               968  obterImpressoras
+             99B               99B  obterImpressoras.falha_impressora
+             9A2               9A2  verificar_discos
+             9C4               9C4  verificar_discos.erro
+             9C7               9C7  verificar_discos.verb
+             9E9               9E9  verificar_discos.erroB
+             9EC               9EC  VERIFICAR_DISCOS
+             A0E               A0E  VERIFICAR_DISCOS.erroc
+             A11               A11  VERIFICAR_DISCOS.verd
+             A33               A33  VERIFICAR_DISCOS.erroD
+             A36               A36  Continuar
+             A37               A37  Verificar_Monitor
+             A90               A90  Verificar_Mouse
+             A9D               A9D  mousefunciona
+             A9F               A9F  teclado
+             AD1               AD1  Verificar_Audio
+             AD1               AD1  Verificar_Audio.sominit
+             B89               B89  marca_proc
+             BA1               BA1  esculpir_dados
+             BA7               BA7  PovoarInterfacePrincipal
+             CC1               CC1  TITULO_INICIAL
+             CD7               CD7  RODAPE_INICIAL
+             CDF               CDF  PovoarInterfaceInfo
+             D71               D71  PovoarInterfaceInfo.loop
+             DD7               DD7  TITULO_INFO
+             DF7               DF7  RODAPE_INFO
+             DFF               DFF  PovoarInterfaceAutorais
+             E90               E90  PovoarInterfaceAutorais.opcoes
+             EAE               EAE  TITULO_AUTORAIS
+             EE1               EE1  RODAPE_AUTORAIS
+             F14               F14  PovoarInterfaceSistema
+             FCC               FCC  PovoarInterfaceSistema.loop
+             FEA               FEA  TITULO_SISTEMA
+            101D              101D  RODAPE_SISTEMA
+            1025              1025  PovoarInterfaceHardware
+            10D0              10D0  PovoarInterfaceHardware.loop
+            10EE              10EE  TITULO_HARDWARE
+            1127              1127  RODAPE_HARDWARE
+            112F              112F  PovoarInterfaceSobre
+            11BF              11BF  PovoarInterfaceSobre.loop
+            11E9              11E9  TITULO_SOBRE
+            121E              121E  RODAPE_SOBRE
+            1226              1226  PovoarInterfaceMemoria
+            12F2              12F2  PovoarInterfaceMemoria.loop
+            1310              1310  TITULO_MEMORIA
+            132E              132E  RODAPE_MEMORIA
+            1375              1375  PovoarInterfaceAPPX
+            13F0              13F0  PovoarInterfaceAPPX.loop
+            140E              140E  TITULO_APPX
+            1444              1444  RODAPE_APPX
+            144C              144C  PovoarInterfaceDiag
+            147D              147D  PovoarInterfaceDiag.opcoes
+            14C1              14C1  PovoarInterfaceDiag.loop
+            14FF              14FF  TITULO_DIAG
+            1535              1535  RODAPE_DIAG
+            153D              153D  PovoarInterfaceMouse
+            1571              1571  PovoarInterfaceMouse.lista_de_acoes
+            1578              1578  PovoarInterfaceMouse.semMouse
+            15D9              15D9  PovoarInterfaceMouse.comMouse
+            1616              1616  PovoarInterfaceMouse.loop
+            1634              1634  TITULO_MOUSE
+            1659              1659  RODAPE_MOUSE
+            1661              1661  PovoarInterfaceVideo
+            1692              1692  PovoarInterfaceVideo.lista_de_acoes
+            169C              169C  PovoarInterfaceVideo.erroMonitor
+            16DF              16DF  PovoarInterfaceVideo.semErroMonitor
+            1722              1722  PovoarInterfaceVideo.loop
+            1740              1740  TITULO_VIDEO
+            1765              1765  RODAPE_VIDEO
+            176D              176D  PovoarInterfaceAudio
+            17BB              17BB  PovoarInterfaceAudio.lista_de_acoes
+            17C5              17C5  PovoarInterfaceAudio.erroAudio
+            17F2              17F2  PovoarInterfaceAudio.semErroAudio
+            1853              1853  PovoarInterfaceAudio.loop
+            1871              1871  TITULO_AUDIO
+            1896              1896  RODAPE_AUDIO
+
+---- Section .data ------------------------------------------------------------
+
+Real              Virtual           Name
+            18A0              18A0  ..@2.string
+            18A3              18A3  ..@5.string
+            18A8              18A8  ..@8.string
+            18AB              18AB  ..@11.string
+            18AE              18AE  ..@14.string
+            18B9              18B9  ..@17.string
+            18C4              18C4  ..@20.string
+            18EB              18EB  ..@23.string
+            18EE              18EE  ..@26.string
+            18F1              18F1  ..@29.string
+            18F8              18F8  ..@32.string
+            18FF              18FF  ..@35.string
+            1905              1905  ..@38.string
+            190C              190C  ..@41.string
+            1912              1912  ..@44.string
+            1918              1918  ..@47.string
+            1935              1935  ..@50.string
+            195D              195D  ..@53.string
+            197E              197E  ..@56.string
+            19A4              19A4  ..@59.string
+            19B0              19B0  ..@62.string
+            19C4              19C4  ..@65.string
+            1A01              1A01  ..@68.string
+            1A06              1A06  ..@71.string
+            1A32              1A32  ..@74.string
+            1A5F              1A5F  ..@77.string
+            1A69              1A69  ..@80.string
+            1A82              1A82  ..@83.string
+            1AC5              1AC5  ..@86.string
+            1B06              1B06  ..@89.string
+            1B37              1B37  ..@92.string
+            1B75              1B75  ..@95.string
+            1BA9              1BA9  ..@98.string
+            1BD8              1BD8  ..@101.string
+            1BFF              1BFF  ..@104.string
+            1C31              1C31  ..@107.string
+            1C47              1C47  ..@110.string
+            1C66              1C66  ..@113.string
+            1C8D              1C8D  ..@116.string
+            1CCA              1CCA  ..@119.string
+            1CFD              1CFD  ..@122.string
+            1D1C              1D1C  ..@125.string
+            1D64              1D64  ..@128.string
+            1DA6              1DA6  ..@131.string
+            1DED              1DED  ..@134.string
+            1E3A              1E3A  ..@137.string
+            1E43              1E43  ..@140.string
+            1E74              1E74  ..@143.string
+            1EBE              1EBE  ..@146.string
+            1F03              1F03  ..@149.string
+            1F2B              1F2B  ..@152.string
+            1F4C              1F4C  ..@155.string
+            1F7D              1F7D  ..@158.string
+            1F9C              1F9C  ..@161.string
+            1FBE              1FBE  ..@164.string
+            1FCA              1FCA  ..@167.string
+            2001              2001  ..@170.string
+            202B              202B  ..@173.string
+            205C              205C  ..@176.string
+            20A5              20A5  ..@179.string
+            20D8              20D8  ..@182.string
+            2112              2112  ..@185.string
+            2128              2128  ..@188.string
+            2155              2155  ..@191.string
+            215F              215F  ..@194.string
+            2178              2178  ..@197.string
+            21A9              21A9  ..@200.string
+            21DE              21DE  ..@203.string
+            2211              2211  ..@206.string
+            222A              222A  ..@209.string
+            2233              2233  ..@212.string
+            2246              2246  ..@215.string
+            2293              2293  ..@218.string
+            22B7              22B7  ..@221.string
+            22DC              22DC  ..@224.string
+            2305              2305  ..@227.string
+            2321              2321  ..@230.string
+            232A              232A  ..@233.string
+            2346              2346  ..@236.string
+            234F              234F  ..@239.string
+            236B              236B  ..@242.string
+            2374              2374  ..@245.string
+            2394              2394  ..@248.string
+            239A              239A  ..@251.string
+            23E1              23E1  ..@254.string
+            2413              2413  ..@257.string
+            241F              241F  ..@260.string
+            2452              2452  ..@263.string
+            2472              2472  ..@266.string
+            249D              249D  ..@269.string
+            24BE              24BE  ..@272.string
+            24EF              24EF  ..@275.string
+            2511              2511  ..@278.string
+            253E              253E  ..@281.string
+            2566              2566  ..@284.string
+            258E              258E  ..@287.string
+            25B0              25B0  ..@290.string
+            25D7              25D7  ..@293.string
+            2611              2611  ..@296.string
+            264B              264B  ..@299.string
+            2684              2684  ..@302.string
+            26BF              26BF  ..@305.string
+            2700              2700  ..@308.string
+            273A              273A  ..@311.string
+            275C              275C  ..@314.string
+            2783              2783  ..@317.string
+            27B9              27B9  ..@320.string
+            27D7              27D7  ..@323.string
+            27F9              27F9  ..@326.string
+            2820              2820  ..@329.string
+            2849              2849  ..@332.string
+            2881              2881  ..@335.string
+            28A3              28A3  ..@338.string
+            28CA              28CA  ..@341.string
+            28F3              28F3  ..@344.string
+            2915              2915  ..@347.string
+            293C              293C  ..@350.string
+            2965              2965  ..@353.string
+            297A              297A  ..@356.string
+            29AC              29AC  ..@359.string
+            29CE              29CE  ..@362.string
+            29F5              29F5  ..@365.string
+            2A1E              2A1E  ..@368.string
+            2A5A              2A5A  ..@371.string
+            2A8A              2A8A  ..@374.string
+            2AC4              2AC4  ..@377.string
+            2AF8              2AF8  ..@380.string
+            2B1A              2B1A  ..@383.string
+            2B41              2B41  BUILD
+            2B45              2B45  VERSAO_PAINEL
+            2B49              2B49  REVISAO_PAINEL
+            2B4E              2B4E  COMPATIBILIDADE_PAINEL
+            2B5F              2B5F  COPYRIGHT
+            2B91              2B91  DIREITOS_RESERVADOS
+            2BAF              2BAF  MSG_INICIAL_TECLADO
+            2C4C              2C4C  MSG_ESPACO_TECLADO
+            2C51              2C51  RETORNO_TECLADO
+            2C7C              2C7C  MSG_DIGITOU_TECLADO
+            2CA9              2CA9  MSG_RETORNO_TECLADO
+            2CE9              2CE9  MSG_ENTER_MOUSE
+            2D0F              2D0F  MSG_SEM_MOUSE
+            2DA1              2DA1  MSG_COM_MOUSE
+            2DDA              2DDA  processador_global
+            2DE7              2DE7  DATA_BUILD
+            2DF1              2DF1  HORA_BUILD
+            2DF9              2DF9  ESPACAMENTO1
+            2E03              2E03  DIA_BUILD
+            2E1E              2E1E  ESPACAMENTO2
+            2E28              2E28  BANNER_BUILD
+            2E73              2E73  configurar
+            2E8D              2E8D  inicio
+
