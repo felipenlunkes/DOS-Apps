@@ -1,0 +1,307 @@
+
+- NASM Map file ---------------------------------------------------------------
+
+Source file:  ajuda.asm
+Output file:  ajuda.com
+
+-- Program origin -------------------------------------------------------------
+
+00000100
+
+-- Sections (summary) ---------------------------------------------------------
+
+Vstart            Start             Stop              Length    Class     Name
+             100               100               9A7  000008A7  progbits  .text
+             9A8               9A8              1048  000006A0  progbits  .data
+
+-- Sections (detailed) --------------------------------------------------------
+
+---- Section .text ------------------------------------------------------------
+
+class:     progbits
+length:                 8A7
+start:                  100
+align:     not defined
+follows:   not defined
+vstart:                 100
+valign:    not defined
+vfollows:  not defined
+
+---- Section .data ------------------------------------------------------------
+
+class:     progbits
+length:                 6A0
+start:                  9A8
+align:                    8
+follows:   not defined
+vstart:                 9A8
+valign:    not defined
+vfollows:  not defined
+
+-- Symbols --------------------------------------------------------------------
+
+---- No Section ---------------------------------------------------------------
+
+Value     Name
+0000002F  branco_verde
+00000007  branco_preto
+000000A4  vermelho_verde
+000000CF  branco_vermelho
+000000F0  preto_branco
+00000060  branco_marrom
+0000B800  MEMORIA_VIDEO
+00000019  ALTURA
+00000050  LARGURA
+0000001B  DEL
+00004200  F8
+00000003  CTRLC
+00000020  Espaco
+0000001B  ESCAPE
+00000021  SHIFT1
+00000022  SHIFT2
+00000023  SHIFT3
+00000024  SHIFT4
+00000025  SHIFT5
+00000026  SHIFT6
+00000027  SHIFT7
+00000028  SHIFT8
+00000029  SHIFT9
+0000002A  SHIFT0
+0000002B  Mais
+0000002D  Menos
+0000003D  Igual
+00000041  AMai
+00000061  AMin
+00000042  BMai
+00000062  BMin
+00000043  CMai
+00000063  CMin
+00000044  DMai
+00000064  DMin
+00000045  EMai
+00000065  EMin
+00000046  FMai
+00000066  FMin
+00000047  GMai
+00000067  GMin
+00000048  HMai
+00000068  HMin
+00000049  IMai
+00000069  IMin
+0000004A  JMai
+0000006A  JMin
+0000004B  KMai
+0000006B  KMin
+0000004C  LMai
+0000006C  LMin
+0000004D  MMai
+0000006D  MMin
+0000004E  NMai
+0000006E  NMin
+0000004F  OMai
+0000006F  Omin
+00000050  PMai
+00000070  PMin
+00000051  QMai
+00000071  QMin
+00000052  RMai
+00000072  RMin
+00000053  SMai
+00000073  SMin
+00000054  TMai
+00000074  TMin
+00000055  UMai
+00000075  UMin
+00000056  VMai
+00000076  VMin
+00000057  WMai
+00000077  WMin
+00000058  XMai
+00000078  XMin
+00000059  YMai
+00000079  YMin
+0000005A  ZMai
+0000007A  ZMin
+0000007F  Del
+00000008  Backspace
+0000003F  Interrogacao
+00000000  VERSAO
+00000009  SUBVERSAO
+000007E0  REVISAO
+00000090  PINT
+00000021  DINT
+0000001F  POS_TITULO_ATUALIZAR
+00000035  POS_RODAPE_ATUALIZAR
+0000001F  POS_TITULO_INICIAL
+00000046  POS_RODAPE_INICIAL
+0000001F  POS_TITULO_SOBRE
+0000002D  POS_RODAPE_SOBRE
+00333030  BUILD_INFO
+
+
+---- Section .text ------------------------------------------------------------
+
+Real              Virtual           Name
+             10D               10D  escrever
+             119               119  pronto
+             11A               11A  clrscr
+             139               139  gotoxy
+             146               146  pintartela
+             17A               17A  chamar_azul_branco
+             17E               17E  chamar_branco_laranja
+             182               182  chamar_cinza_verde
+             186               186  chamar_ciano_roxo
+             18A               18A  chamar_vermelho_azul
+             18E               18E  chamar_vermelho_ciano
+             192               192  chamar_vermelhoesc_branco
+             196               196  branco_laranja
+             1C8               1C8  azul_branco
+             1FA               1FA  cinza_verde
+             22C               22C  ciano_roxo
+             25E               25E  vermelho_azul
+             290               290  vermelho_ciano
+             2C2               2C2  vermelhoesc_branco
+             2F4               2F4  ativar_interface
+             303               303  criar_interface
+             30B               30B  titulo_rodape
+             323               323  rolagem
+             338               338  desenhar
+             345               345  desenhar_nao_decrementa_linha
+             34B               34B  desenhar_nao_decrementa_coluna
+             371               371  adaptar_interface
+             3C2               3C2  adaptar_pagina
+             3CA               3CA  atualizar_interface
+             3DD               3DD  matar_interface
+             3EA               3EA  criar_caixa_mensagem
+             3F2               3F2  criar_caixa_mensagem.titulo_rodape
+             40A               40A  criar_caixa_mensagem.rolagem
+             41F               41F  criar_dialogo
+             42C               42C  criar_caixa_opcoes
+             434               434  criar_caixa_opcoes.linha_horizontal_sim
+             44C               44C  criar_caixa_opcoes.linha_vertical_sim
+             464               464  criar_caixa_opcoes.linha_horizontal_nao
+             47C               47C  criar_caixa_opcoes.linha_vertical_nao
+             491               491  criar_sim_nao
+             4B7               4B7  mostrar_cursor
+             4C0               4C0  esconder_cursor
+             4D5               4D5  limpar_linha
+             4DA               4DA  limpar_linha.limpar
+             4E6               4E6  marcar_linha
+             4EB               4EB  marcar_linha.marcar
+             4F7               4F7  colorir_linha
+             4FC               4FC  colorir_linha.marcar
+             508               508  ler
+             50A               50A  ler.loop
+             525               525  ler.apagar
+             541               541  ler.pronto
+             54F               54F  aguardar_tecla
+             555               555  identificar_tecla
+             560               560  para_Maiusculo
+             564               564  para_Maiusculo_loop
+             57C               57C  para_Maiusculo_pronto
+             57E               57E  emitirsom
+             595               595  desligarsom
+             59E               59E  delay
+             5BF               5BF  delay.checarLoop
+             5CC               5CC  delay.tempo_para
+             5CE               5CE  delay.na_hora
+             5E2               5E2  delay.delay_original
+             5E4               5E4  delay.var_contar
+             5E6               5E6  delay.contagem_anterior
+             5E8               5E8  BIOS
+             5EE               5EE  pxdoshlt
+             5FC               5FC  printf
+             600               600  printk
+             608               608  scanf
+             60C               60C  binparadecimal
+             625               625  binparadecimal.tmp
+             627               627  pausar
+             648               648  pausar.checarloop
+             655               655  pausar.passou
+             657               657  pausar.sincronizado
+             66B               66B  pausar.delayoriginal
+             66D               66D  pausar.var_contar
+             66F               66F  pausar.anterior
+             671               671  paraString
+             67B               67B  paraString.empurrar
+             686               686  paraString.puxar
+             698               698  paraString.tmp
+             69F               69F  verificar_sistema
+             6AD               6AD  Continua
+             6B8               6B8  correto
+             6B9               6B9  FIMVDI
+             6C6               6C6  SDK_fim
+             6D4               6D4  kbs
+             6DE               6DE  mbs
+             6EB               6EB  esculpir_dados
+             6EE               6EE  PovoarInterfaceAtualizar
+             78C               78C  PovoarInterfaceAtualizar.loopAtualizar
+             7A6               7A6  TITULO_ATUALIZAR
+             7B9               7B9  RODAPE_ATUALIZAR
+             7D2               7D2  PovoarInterfacePrincipal
+             8A3               8A3  TITULO_INICIAL
+             8B6               8B6  RODAPE_INICIAL
+             8BE               8BE  PovoarInterfaceSobre
+             95B               95B  PovoarInterfaceSobre.loop
+             979               979  TITULO_SOBRE
+             98C               98C  RODAPE_SOBRE
+
+---- Section .data ------------------------------------------------------------
+
+Real              Virtual           Name
+             9A8               9A8  ..@1.string
+             9AB               9AB  ..@4.string
+             9B0               9B0  ..@7.string
+             9B3               9B3  ..@10.string
+             9B6               9B6  ..@13.string
+             9C1               9C1  ..@16.string
+             9CC               9CC  ..@19.string
+             9F3               9F3  ..@22.string
+             A18               A18  ..@25.string
+             A67               A67  ..@28.string
+             AAF               AAF  ..@31.string
+             AFB               AFB  ..@34.string
+             B44               B44  ..@37.string
+             B62               B62  ..@40.string
+             BA4               BA4  ..@43.string
+             BE1               BE1  ..@46.string
+             C16               C16  ..@49.string
+             C3D               C3D  ..@52.string
+             C63               C63  ..@55.string
+             CAC               CAC  ..@58.string
+             CC4               CC4  ..@61.string
+             CF2               CF2  ..@64.string
+             D05               D05  ..@67.string
+             D25               D25  ..@70.string
+             D40               D40  ..@73.string
+             D50               D50  ..@76.string
+             D63               D63  ..@79.string
+             D7E               D7E  ..@82.string
+             DA5               DA5  ..@85.string
+             DDA               DDA  ..@88.string
+             E0D               E0D  ..@91.string
+             E26               E26  ..@94.string
+             E2F               E2F  ..@97.string
+             E42               E42  ..@100.string
+             E77               E77  ..@103.string
+             E9E               E9E  BUILD
+             EA2               EA2  VERSAO_AJUDA
+             EA8               EA8  REVISAO_AJUDA
+             EAD               EAD  COMPATIBILIDADE_AJUDA
+             EBE               EBE  COPYRIGHT
+             EF0               EF0  DIREITOS_RESERVADOS
+             F0E               F0E  processador_global
+             F1B               F1B  DATA_BUILD
+             F25               F25  HORA_BUILD
+             F2D               F2D  ESPACAMENTO1
+             F37               F37  DIA_BUILD
+             F52               F52  ESPACAMENTO2
+             F5C               F5C  BANNER_BUILD
+             FA7               FA7  finalizar
+             FC2               FC2  finalizar.fechar
+             FE4               FE4  fim
+             FF1               FF1  SAIR_MSG
+            1008              1008  Prog
+            1028              1028  configurar
+            1042              1042  inicio
+
