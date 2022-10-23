@@ -49,9 +49,10 @@ To build PX-DOS init, you will need the following dependencies:
 
 ![Windows](https://img.shields.io/badge/Windows_32_bit-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![TurboC](https://img.shields.io/badge/Borland_Turbo_C-F57842?style=for-the-badge&logo=c&logoColor=white)
+![TurboPascal](https://img.shields.io/badge/Borland_Turbo_Pascal-F57842?style=for-the-badge&logo=pascal&logoColor=white)
 ![OpenWatcom](https://img.shields.io/badge/Open_Watcom-4EAA25?style=for-the-badge&logo=c&logoColor=white)
-![TASM](https://img.shields.io/badge/NASM-C3C3C3?style=for-the-badge&logo=assembly&logoColor=white)
-![NASM](https://img.shields.io/badge/TASM-C2C2C2?style=for-the-badge&logo=assembly&logoColor=white)
+![TASM](https://img.shields.io/badge/NASM-3C3C3C?style=for-the-badge&logo=assembly&logoColor=white)
+![NASM](https://img.shields.io/badge/TASM-2C2C2C?style=for-the-badge&logo=assembly&logoColor=white)
 
 </div>
 
@@ -93,8 +94,10 @@ Para construir o init do PX-DOS, você vai precisar das seguintes dependências:
 
 ![Windows](https://img.shields.io/badge/Windows_32_bit-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![TurboC](https://img.shields.io/badge/Borland_Turbo_C-F57842?style=for-the-badge&logo=c&logoColor=white)
+![TurboPascal](https://img.shields.io/badge/Borland_Turbo_Pascal-F57842?style=for-the-badge&logo=pascal&logoColor=white)
 ![OpenWatcom](https://img.shields.io/badge/Open_Watcom-4EAA25?style=for-the-badge&logo=c&logoColor=white)
-![TASM](https://img.shields.io/badge/TASM-0C322C?style=for-the-badge&logo=assembly&logoColor=white)
+![TASM](https://img.shields.io/badge/NASM-3C3C3C?style=for-the-badge&logo=assembly&logoColor=white)
+![NASM](https://img.shields.io/badge/TASM-2C2C2C?style=for-the-badge&logo=assembly&logoColor=white)
 
 </div>
 
