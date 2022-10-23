@@ -41,7 +41,7 @@
 
 <div align="justify">
 
-To build PX-DOS init, you will need the following dependencies:
+To build PX-DOS core apps, you will need the following dependencies:
 
 </div>
 
@@ -64,11 +64,11 @@ After all dependencies are installed, you can proceed with this tutorial.
 
 </div>
 
-### libc
+### PX-DOS Core Apps
 
 <div align="justify">
 
-The init can be built by running the file [crgdrv.bat](crgdrv.bat), present in this directory.
+The core apps can be built by running the files asm.bat, c.bat and pascal.bat, present in this directory.
 
 </div>
 
@@ -82,11 +82,11 @@ The init can be built by running the file [crgdrv.bat](crgdrv.bat), present in t
 
 </div>
   
-### Dependências necessárias à construção do init do PX-DOS
+### Dependências necessárias à construção dos aplicativos base do PX-DOS
 
 <div align="justify">
 
-Para construir o init do PX-DOS, você vai precisar das seguintes dependências:
+Para construir os aplicativos base do PX-DOS, você vai precisar das seguintes dependências:
 
 </div>
 
@@ -113,7 +113,7 @@ Após a instalação de todas as dependências, você poderá seguir com este tu
 
 <div align="justify">
 
-O init pode ser construído executando o arquivo [crgdrv.bat](crgdrv.bat), presente neste diretório.
+Os aplicativos base podem ser construídos executando os arquivos asm.bat, c.bat e pascal.bat, presentes neste diretório.
 
 </div>
 
